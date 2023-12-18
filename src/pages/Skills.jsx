@@ -139,12 +139,12 @@ const Skills = () => {
         <p className="text-gray-100"> My Knowledge</p>
       </div>
       <div
-        className={`  gap-y-5 hover  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6   `}
+        className={`   gap-y-5 hover  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6   `}
       >
         {skills.map((skill, index) => (
           <div
             key={index}
-            className={`${skill.bgColor} ${skill.color} cursor-pointer text-6xl hover:text-white w-24 h-24 hover:animate-pulse  rounded-full bg-slate-300 flex justify-self-center justify-center items-center`}
+            className={`${skill.bgColor}  ${skill.color} cursor-pointer text-6xl hover:text-white w-24 h-24 hover:animate-pulse  rounded-full bg-slate-300 flex justify-self-center justify-center items-center`}
           >
             <i className={`${skill.logo}`}></i>
           </div>

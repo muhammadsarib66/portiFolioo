@@ -6,7 +6,7 @@
 
 html {
   
-  @apply font-Poppins 
+  @apply font-Poppins  bg-gray-800
 
 }
 body {
